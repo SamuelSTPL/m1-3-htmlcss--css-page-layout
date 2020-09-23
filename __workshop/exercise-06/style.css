@@ -2,6 +2,29 @@ body {
   margin: 0;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 100px;
+  min-height: 200px;
+  padding: 0px 16px;
+  z-index: 1;
+  text-align: center;
+}
+
+.dropdown-content--item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: deepskyblue;
+  height: 40px;
+}
+
 .nav {
   background-color: #383737;
 }
@@ -10,4 +33,24 @@ body {
   color: #fff;
   text-decoration: none;
   display: inline-block;
+}
+
+.dropdown-label,
+.dropdown-content,
+li {
+  color: white;
+  list-style: none;
+}
+
+.nav-items > li {
+  display: inline;
+  padding-right: 40px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content--item:hover {
+  background-color: dodgerblue;
 }

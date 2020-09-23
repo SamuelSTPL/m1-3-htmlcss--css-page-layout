@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    font-family: 'poppins';
+}
+
+nav{
+    background-color: #3a3633;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    padding:0px 40px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    transition: opacity;
+}
+
+a:hover{
+    opacity: 0.5;
+}

@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    font-family: 'poppins';
+}
+
+header,
+footer{
+    background-color: #282828;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    text-transform: uppercase;
+}

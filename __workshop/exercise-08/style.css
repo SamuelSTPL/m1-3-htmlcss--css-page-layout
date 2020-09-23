@@ -1,38 +1,74 @@
 body {
   margin: 0;
   font-family: Poppins, sans-serif;
+
 }
 
 .header {
+  background-color: dodgerblue;
+  color: white;
+  text-align: center;
 }
 
 .registration-form {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  border: 1px solid lightgray;
+  border-radius: 10px;
 }
 
 .text-field {
+  display: block;
+  margin: auto;
+  border: 1px solid dodgerblue;
+  border-radius: 2px;
+  width: 250px;
+  
 }
 
 .radio-label,
-.checkbox-label {
-}
-
-label {
+.checkbox-label,
+.extra {
+  text-align: start;
 }
 
 .section {
+  margin: 20px auto;
+  padding-top: 10px;
+  text-align: start;
+  width: 95%;
+  border-top: 1px solid lightgrey;
 }
 
-.section > label {
+.extra {
+  margin: auto;
+  width: 95%;
 }
 
-select {
+.special {
+  display: block;
 }
 
 textarea {
+  resize: none;
+  width: 95%;
+  height: 100px;
+  background-color: rgb(245, 243, 243);
+  border: 0px;
+  margin-top: 10px;
 }
 
 .form-button {
+  margin: 20px 0;
+  border: 1px solid dodgerblue;
+  background-color: white;
+  height: 30px;
+  width: 70px;
+  border-radius: 2px;
 }
 
 .form-button:hover {
+  background-color: dodgerblue;
+  color: white;
 }

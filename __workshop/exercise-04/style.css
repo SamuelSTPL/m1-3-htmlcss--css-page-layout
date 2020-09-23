@@ -1,0 +1,36 @@
+body{
+    font-family: 'poppins';
+    margin-top: 25px;
+}
+.container {
+    text-align: center;
+    margin: auto;
+    max-width: 80%;
+}
+.limited {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 35%;
+}
+.limited p {
+    font-size: 25px;
+    margin: 5px;
+}
+.container h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.main{
+    font-size: 30px;
+    margin: 10px 0 10px;
+}
+.link {
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 30px;
+}
+.link::after {
+    padding-left: 7px;
+    content: '>';
+}
